@@ -10,6 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FavouritePlaces">
         <activity
+            android:name=".AddHappyPlaceActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:label="Add Favourite Place"
+            android:theme="@style/CustomNoActionBarTheme"
+            />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
